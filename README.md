@@ -43,4 +43,12 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sahelidgp/LeetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sahelidgp/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
