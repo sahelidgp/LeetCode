@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## String
 |  |
 | ------- |
@@ -31,6 +32,7 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -51,4 +53,12 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/sahelidgp/LeetCode/tree/master/0206-reverse-linked-list) |
+## Sorting
+|  |
+| ------- |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 <!---LeetCode Topics End-->
