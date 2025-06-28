@@ -2,24 +2,30 @@ class Solution {
 public:
     vector<int> maxSubsequence(vector<int>& nums, int k) {
         int n = nums.size();
-        
-        set<pair<int,int>>st;
+        // copy the vector in other vector
+        vector<int>copy = nums;
+        //sort the copy vector
+        //O(n)
+        sort(copy.begin(),copy.end());
+
+        // take the last k elements as they are the largetst k elements
+        //O(klogk)
+        unordered_map<int,int>mp;
+        for(int i=n-k;i<n;i++){
+            mp[copy[i]]++;
+        }
+        vector<int>ans;
+        // nowtraverse in the original input array and check if the element is among the largest k ele
+        // then push it in the ans
         for(int i=0;i<n;i++){
-            st.insert({nums[i],i});
+            if(mp.find(nums[i]) != mp.end()){
+                ans.push_back(nums[i]);
+                //decrease the freq count once it is included
+                mp[nums[i]]--;
+                if(mp[nums[i]] == 0)mp.erase(nums[i]);
+            }
+            if(ans.size() == k)break;
         }
-        
-        set<pair<int,int>>ans;
-        int count = 0;
-        for(auto it = st.rbegin();it != st.rend() && count < k; ++it,++count){
-            ans.insert({it->second,it->first});
-        
-        }
-        //reverse(ans.begin(),ans.end());
-        //sort(ans.begin(),ans.end());
-        vector<int>res;
-        for(auto it = ans.begin();it!= ans.end();it++){
-                res.push_back(it->second);
-        }
-        return res;
+        return ans;
     }
 };
