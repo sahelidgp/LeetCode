@@ -1,165 +1,78 @@
-<h2><a href="https://leetcode.com/problems/partition-string">3905. Partition String </a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, partition it into <strong>unique segments</strong> according to the following procedure:</p>
+# LeetCode 3905 - Partition String
 
-<ul>
-	<li>Start building a segment beginning at index 0.</li>
-	<li>Continue extending the current segment character by character until the current segment has not been seen before.</li>
-	<li>Once the segment is unique, add it to your list of segments, mark it as seen, and begin a new segment from the next index.</li>
-	<li>Repeat until you reach the end of <code>s</code>.</li>
-</ul>
+## Problem Link
 
-<p>Return an array of strings <code>segments</code>, where <code>segments[i]</code> is the <code>i<sup>th</sup></code> segment created.</p>
+[LeetCode 3905: Partition String](https://leetcode.com/problems/partition-string)
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+## Problem Description
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;abbccccd&quot;</span></p>
+Given a string `s`, partition it into **unique segments** following this procedure:
 
-<p><strong>Output:</strong> <span class="example-io">[&quot;a&quot;,&quot;b&quot;,&quot;bc&quot;,&quot;c&quot;,&quot;cc&quot;,&quot;d&quot;]</span></p>
+1. Start building a segment from index 0.
+2. Extend the current segment character by character until the current segment has **not been seen before**.
+3. Once the segment is unique, add it to your list of segments, mark it as seen, and start a new segment from the next index.
+4. Repeat until the end of the string.
 
-<p><strong>Explanation:</strong></p>
+Return the array of created segments.
 
-<table style="border: 1px solid black;">
-	<tbody>
-		<tr>
-			<th style="border: 1px solid black;">Index</th>
-			<th style="border: 1px solid black;">Segment After Adding</th>
-			<th style="border: 1px solid black;">Seen Segments</th>
-			<th style="border: 1px solid black;">Current Segment Seen Before?</th>
-			<th style="border: 1px solid black;">New Segment</th>
-			<th style="border: 1px solid black;">Updated Seen Segments</th>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">0</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">1</td>
-			<td style="border: 1px solid black;">&quot;b&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">2</td>
-			<td style="border: 1px solid black;">&quot;b&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;]</td>
-			<td style="border: 1px solid black;">Yes</td>
-			<td style="border: 1px solid black;">&quot;b&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">3</td>
-			<td style="border: 1px solid black;">&quot;bc&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">4</td>
-			<td style="border: 1px solid black;">&quot;c&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">5</td>
-			<td style="border: 1px solid black;">&quot;c&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;]</td>
-			<td style="border: 1px solid black;">Yes</td>
-			<td style="border: 1px solid black;">&quot;c&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">6</td>
-			<td style="border: 1px solid black;">&quot;cc&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;, &quot;cc&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">7</td>
-			<td style="border: 1px solid black;">&quot;d&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;, &quot;cc&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;, &quot;cc&quot;, &quot;d&quot;]</td>
-		</tr>
-	</tbody>
-</table>
+---
 
-<p>Hence, the final output is <code>[&quot;a&quot;, &quot;b&quot;, &quot;bc&quot;, &quot;c&quot;, &quot;cc&quot;, &quot;d&quot;]</code>.</p>
-</div>
+## Example 1:
 
-<p><strong class="example">Example 2:</strong></p>
+**Input:**
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;aaaa&quot;</span></p>
+```text
+s = "abbccccd"
+```
 
-<p><strong>Output:</strong> <span class="example-io">[&quot;a&quot;,&quot;aa&quot;]</span></p>
+**Output:**
 
-<p><strong>Explanation:</strong></p>
+```text
+["a", "b", "bc", "c", "cc", "d"]
+```
 
-<table style="border: 1px solid black;">
-	<tbody>
-		<tr>
-			<th style="border: 1px solid black;">Index</th>
-			<th style="border: 1px solid black;">Segment After Adding</th>
-			<th style="border: 1px solid black;">Seen Segments</th>
-			<th style="border: 1px solid black;">Current Segment Seen Before?</th>
-			<th style="border: 1px solid black;">New Segment</th>
-			<th style="border: 1px solid black;">Updated Seen Segments</th>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">0</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">1</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-			<td style="border: 1px solid black;">Yes</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">2</td>
-			<td style="border: 1px solid black;">&quot;aa&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;]</td>
-			<td style="border: 1px solid black;">No</td>
-			<td style="border: 1px solid black;">&quot;&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;aa&quot;]</td>
-		</tr>
-		<tr>
-			<td style="border: 1px solid black;">3</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;aa&quot;]</td>
-			<td style="border: 1px solid black;">Yes</td>
-			<td style="border: 1px solid black;">&quot;a&quot;</td>
-			<td style="border: 1px solid black;">[&quot;a&quot;, &quot;aa&quot;]</td>
-		</tr>
-	</tbody>
-</table>
+## Example 2:
 
-<p>Hence, the final output is <code>[&quot;a&quot;, &quot;aa&quot;]</code>.</p>
-</div>
+**Input:**
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+```text
+s = "aaaa"
+```
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> contains only lowercase English letters. </li>
-</ul>
+**Output:**
+
+```text
+["a", "aa"]
+```
+
+---
+
+## Constraints:
+
+* `1 <= s.length <= 10^5`
+* `s` contains only lowercase English letters.
+
+---
+
+## Approaches and Time Complexity
+
+| Approach                                | Time Complexity | Practical Performance         | Space Complexity | Notes                                                                                     |
+| --------------------------------------- | --------------- | ----------------------------- | ---------------- | ----------------------------------------------------------------------------------------- |
+| **1. Unordered Set (Current Solution)** | O(n√n)          | Acceptable (\~10⁸ operations) | O(n)             | Passes in practice. Worst-case is borderline. String hashing depends on substring length. |
+| **2. Ordered Set (Balanced BST)**       | O(n√n log n)    | Slower                        | O(n)             | Adds log n factor due to tree balancing. Not recommended.                                 |
+| **3. Rolling Hash (Recommended)**       | O(n)            | Extremely Fast                | O(n)             | Uses integer hashing. Avoids string comparisons. Best performance.                        |
+| **4. Trie (Prefix Tree)**               | O(n)            | Very Fast                     | O(n)             | Efficient prefix matching, but higher memory usage due to trie node overhead.             |
+
+---
+
+## Conclusion:
+
+* ✅ Use **Rolling Hash** for the most optimized solution.
+* ✅ Trie can also solve this efficiently if prefix management is required.
+* ✅ The provided solution using `unordered_set<string>` is acceptable but not optimal for large inputs in worst-case scenarios.
+
+---
+
+## Contact:
+
+Feel free to reach out for the full rolling hash or trie implementation.
