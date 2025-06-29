@@ -36,7 +36,8 @@ public:
 //standard formula for ap :  (n')(n'+1)/2  = n
 // n' ~ O(sqrt(n)) -> a maximum size of a segment
 
-//tc: O(n.sqrt(n).logn) ~= 10^8 operations which should just pass
+//tc: O(n.sqrt(n).logn) ~= 10^8 operations which should just pass  if set   
+// if unordered_set is used O(n.sqrt(n))
 
 // in fact actual bound is lesser 
 //set<string>seen  
