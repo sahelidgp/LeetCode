@@ -5,6 +5,7 @@
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/sahelidgp/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
 |  |
@@ -31,6 +32,7 @@
 ## Array
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/sahelidgp/LeetCode/tree/master/0066-plus-one) |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
