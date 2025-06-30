@@ -1,20 +1,23 @@
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
-       unordered_map<int,int>mp;
-       int n = nums.size();
-
-        for(int i=0;i<n;i++){
-            mp[nums[i]]++;
-        }
-        int count;
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        int i = 0;
         int maxcount = 0;
-        for(auto [key,val]:mp){
-            if(mp.count(key+1)){
-                count = val + mp[key+1];
-                maxcount = max(count,maxcount);
+
+        for (int j = 0; j < n; j++) {
+            // Shrink window if difference exceeds 1
+            while (nums[j] - nums[i] > 1) {
+                i++;
+            }
+
+            // Valid window if difference is exactly 1
+            if (nums[j] - nums[i] == 1) {
+                maxcount = max(maxcount, j - i + 1);
             }
         }
+
         return maxcount;
     }
 };
