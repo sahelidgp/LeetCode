@@ -27,6 +27,7 @@
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
+| [3617-find-the-original-typed-string-i](https://github.com/sahelidgp/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 ## Breadth-First Search
 |  |
 | ------- |
