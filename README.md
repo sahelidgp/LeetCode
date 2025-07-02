@@ -13,6 +13,7 @@
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
+| [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Memoization
 |  |
 | ------- |
@@ -28,6 +29,7 @@
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
 | [3617-find-the-original-typed-string-i](https://github.com/sahelidgp/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
+| [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -89,4 +91,8 @@
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+## Prefix Sum
+|  |
+| ------- |
+| [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 <!---LeetCode Topics End-->
