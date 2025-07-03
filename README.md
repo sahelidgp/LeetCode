@@ -7,6 +7,7 @@
 | ------- |
 | [0066-plus-one](https://github.com/sahelidgp/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -65,6 +66,7 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/sahelidgp/LeetCode/tree/master/0206-reverse-linked-list) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Sorting
 |  |
 | ------- |
@@ -95,4 +97,12 @@
 |  |
 | ------- |
 | [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+## Simulation
+|  |
+| ------- |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 <!---LeetCode Topics End-->
