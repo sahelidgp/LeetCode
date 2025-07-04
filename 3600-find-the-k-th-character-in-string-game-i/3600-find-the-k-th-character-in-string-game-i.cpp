@@ -1,15 +1,25 @@
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     char kthCharacter(int k) {
-        string s = "a";
-        while (true) {
-            int len = s.length();
+        int shifts = 0;
 
-            for (int i = 0; i < len; i++) {
-                s += ((s[i] - 'a' + 1) % 26 + 'a');
-                if (i == k-1) return s[k - 1];
+        while (k > 1) {
+            int len = 1;
+            while (2 * len < k) {
+                len *= 2;
+            }
+
+            if (k > len) {
+                k -= len; // Map to first half
+                shifts++;
+            } else {
+                shifts++;
             }
         }
-        return -1; // unreachable
+
+        return 'a' + (shifts % 26);
     }
 };
