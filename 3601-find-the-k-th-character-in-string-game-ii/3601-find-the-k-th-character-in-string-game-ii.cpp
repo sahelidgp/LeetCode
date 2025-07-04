@@ -2,17 +2,16 @@ class Solution {
 public:
     char kthCharacter(long long k, vector<int>& operations) {
         int ans = 0;
-        int t;
-        while (k != 1) {
-            t = __lg(k);
-            if (((long long)1 << t) == k) {
-                t--;
+        k--; // Convert to 0-based index
+
+        // Go through each bit of k
+        for (int i = 0; k > 0; i++) {
+            if (k & 1) { // If the i-th bit is set
+                ans += operations[i];
             }
-            k = k - ((long long)1 << t);
-            if (operations[t]) {
-                ans++;
-            }
+            k >>= 1; // Move to the next bit
         }
+
         return 'a' + (ans % 26);
     }
 };
