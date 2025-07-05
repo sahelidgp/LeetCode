@@ -6,8 +6,8 @@ public:
         for(int i=0;i<n;i++){
             mp[arr[i]]++;
         }
-        int maxi=0;
-        int ans = 0;
+        int maxi=-1;
+        int ans = -1;
         for(auto &[key,val]:mp){
             
             if(key == val){
@@ -15,7 +15,7 @@ public:
                 maxi = max(maxi,ans);
             }
         }
-        if(maxi == 0)return -1;
+
         return maxi;
     }
 };
