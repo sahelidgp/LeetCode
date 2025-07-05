@@ -25,6 +25,7 @@
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## String
 |  |
@@ -45,6 +46,7 @@
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Depth-First Search
@@ -95,6 +97,7 @@
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
