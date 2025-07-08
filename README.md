@@ -15,6 +15,7 @@
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Memoization
 |  |
@@ -50,6 +51,7 @@
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sahelidgp/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sahelidgp/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Depth-First Search
@@ -80,6 +82,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sahelidgp/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Heap (Priority Queue)
 |  |
@@ -94,6 +97,7 @@
 |  |
 | ------- |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 ## Sliding Window
 |  |
 | ------- |
