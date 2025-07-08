@@ -2,6 +2,7 @@ class Solution {
 public:
     int maxEvents(vector<vector<int>>& events) {
         int n = events.size();
+        //sort the events based on the start 
         sort(begin(events),end(events)); // nlogn
 
         priority_queue<int,vector<int>,greater<int>>pq; //min-heap
