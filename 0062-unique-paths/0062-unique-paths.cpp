@@ -6,7 +6,7 @@ public:
             vector<int>temp(n,0);
             for(int j=0;j<n;j++){
 
-                temp[j] += prev[j];
+                temp[j] = prev[j];
                 if(j>0) temp[j] += temp[j-1];
             }
             prev = temp;
