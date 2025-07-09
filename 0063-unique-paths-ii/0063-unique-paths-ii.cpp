@@ -3,22 +3,27 @@ public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
         int n = obstacleGrid.size();
         int m = obstacleGrid[0].size();
-        vector<vector<int>>dp(n,vector<int>(m,0));
-
+        vector<int>prev(m,0);
+        
         for(int i=0;i<n;i++){
+            vector<int>temp(m,0);
             for(int j=0;j<m;j++){
-                if(obstacleGrid[i][j] == 1)dp[i][j]=0;
-                else if(i==0 && j==0)dp[i][j]=1; 
+                if( obstacleGrid[i][j] == 1)temp[j] = 0;
+                else if(i==0 && j==0)temp[j]=1; 
+
                 else{
                 int left = 0;
                 int up = 0;
-                if(j>0 )left = dp[i][j-1];
-                if(i>0)up = dp[i-1][j];
+                if(j>0 )left = temp[j-1];
+                up = prev[j];
 
-                dp[i][j] = left + up;
+                temp[j] = left + up; 
                 }
+
             }
-        }
-        return dp[n-1][m-1];
+             prev = temp;
+            }
+        
+        return prev[m-1];
     }
 };
