@@ -5,6 +5,7 @@
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/sahelidgp/LeetCode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/sahelidgp/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -12,6 +13,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/sahelidgp/LeetCode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
@@ -128,4 +130,8 @@
 |  |
 | ------- |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sahelidgp/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/sahelidgp/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
