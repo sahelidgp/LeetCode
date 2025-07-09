@@ -1,0 +1,19 @@
+class Solution {
+private:
+    int f(int i,int j,int n,vector<vector<int>>& triangle,vector<vector<int>>& dp){
+        if(i == n-1 )return triangle[i][j];
+        if(i>=n || j>i+1)return 1e9;
+        if(dp[i][j] != -1)return dp[i][j];
+        int right = f(i+1,j,n,triangle,dp);
+        int down = f(i+1,j+1,n,triangle,dp);
+
+        return dp[i][j] = min(right,down)+triangle[i][j];
+    }
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int n = triangle.size();
+        int m = triangle[n-1].size();
+        vector<vector<int>>dp(n,vector<int>(m,-1));
+        return f(0,0,n,triangle,dp);
+    }
+};
