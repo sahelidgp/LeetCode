@@ -17,6 +17,7 @@
 | [0063-unique-paths-ii](https://github.com/sahelidgp/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/sahelidgp/LeetCode/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/sahelidgp/LeetCode/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -50,6 +51,7 @@
 | [0063-unique-paths-ii](https://github.com/sahelidgp/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/sahelidgp/LeetCode/tree/master/0066-plus-one) |
+| [0120-triangle](https://github.com/sahelidgp/LeetCode/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
