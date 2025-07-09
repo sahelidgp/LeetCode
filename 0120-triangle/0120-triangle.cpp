@@ -4,10 +4,10 @@ private:
         if(i == n-1 )return triangle[i][j];
         if(i>=n || j>i+1)return 1e9;
         if(dp[i][j] != -1)return dp[i][j];
-        int right = f(i+1,j,n,triangle,dp);
-        int down = f(i+1,j+1,n,triangle,dp);
+        int down = f(i+1,j,n,triangle,dp);
+        int diag = f(i+1,j+1,n,triangle,dp);
 
-        return dp[i][j] = min(right,down)+triangle[i][j];
+        return dp[i][j] = min(down,diag)+triangle[i][j];
     }
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
