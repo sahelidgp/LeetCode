@@ -20,6 +20,7 @@
 | [0120-triangle](https://github.com/sahelidgp/LeetCode/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
+| [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sahelidgp/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Memoization
@@ -56,6 +57,7 @@
 | [0198-house-robber](https://github.com/sahelidgp/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sahelidgp/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -76,6 +78,7 @@
 | [0063-unique-paths-ii](https://github.com/sahelidgp/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
+| [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 ## Linked List
 |  |
 | ------- |
