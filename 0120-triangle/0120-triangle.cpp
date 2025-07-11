@@ -4,25 +4,20 @@ public:
         int n = triangle.size();
         int m = triangle[n-1].size();
 
-        
-        vector<vector<int>>dp(n,vector<int>(m,1e9));
-        for(int i=0;i<n;i++){
-            for(int j=0;j<i+1;j++){
-                if(i == 0 && j == 0)dp[i][j] = triangle[i][j];
-                else{
-                    int up = 1e9;
-                    int diag = 1e9;
-                    if(i>0) up = dp[i-1][j];
-                    if(i>0 && j>0)diag = dp[i-1][j-1];
+        vector<vector<int>>dp(n,vector<int>(m));
 
-                    dp[i][j] = min(up,diag)+triangle[i][j];
-                }
+        for(int j=0;j<m;j++){
+            dp[n-1][j] = triangle[n-1][j];
+        }
+        for(int i=n-2;i>=0;i--){
+            for(int j=i;j>=0;j--){
+
+                int down = triangle[i][j] + dp[i+1][j];
+                int diag = triangle[i][j] + dp[i+1][j+1];
+
+                dp[i][j] = min(down,diag);
             }
         }
-        int mini = 1e9;
-        for(int p=0;p<m;p++){
-            mini = min(mini,dp[n-1][p]);
-        }
-        return mini;
+        return dp[0][0];
     }
 };
