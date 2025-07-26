@@ -49,6 +49,7 @@
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
 | [1036-rotting-oranges](https://github.com/sahelidgp/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/sahelidgp/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Array
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/sahelidgp/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/sahelidgp/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sahelidgp/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sahelidgp/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -86,6 +88,7 @@
 | [0130-surrounded-regions](https://github.com/sahelidgp/LeetCode/tree/master/0130-surrounded-regions) |
 | [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/sahelidgp/LeetCode/tree/master/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/sahelidgp/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Linked List
 |  |
 | ------- |
