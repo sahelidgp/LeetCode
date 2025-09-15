@@ -34,6 +34,7 @@
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/sahelidgp/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sahelidgp/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sahelidgp/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sahelidgp/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -41,6 +42,7 @@
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/sahelidgp/LeetCode/tree/master/0127-word-ladder) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/sahelidgp/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [3617-find-the-original-typed-string-i](https://github.com/sahelidgp/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/sahelidgp/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Breadth-First Search
