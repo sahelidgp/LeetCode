@@ -64,6 +64,7 @@
 | [0213-house-robber-ii](https://github.com/sahelidgp/LeetCode/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/sahelidgp/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0594-longest-harmonious-subsequence](https://github.com/sahelidgp/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
+| [0735-asteroid-collision](https://github.com/sahelidgp/LeetCode/tree/master/0735-asteroid-collision) |
 | [0967-minimum-falling-path-sum](https://github.com/sahelidgp/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/sahelidgp/LeetCode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sahelidgp/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -147,6 +148,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/sahelidgp/LeetCode/tree/master/0735-asteroid-collision) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sahelidgp/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Design
 |  |
@@ -168,4 +170,8 @@
 |  |
 | ------- |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/sahelidgp/LeetCode/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Stack
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/sahelidgp/LeetCode/tree/master/0735-asteroid-collision) |
 <!---LeetCode Topics End-->
